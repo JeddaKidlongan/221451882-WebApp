@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercise</title><br>
-    <style>
+        <style>
         body {
             background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6c3KxfbS9qdyohZWk7yl_w4Cpo9wzt5ECOw&usqp=CAU);
             background-size: cover;
@@ -15,8 +15,13 @@
         h1 {
             text-align: center;
         }
-    </style>
-</head>
+
+        table th, td {
+            border: 1px solid black;
+        }
+
+        </style>
+    </head>
 <body> 
 
     <h1>OOH MY GOD WOW!</h1>
@@ -33,16 +38,17 @@
     </figure>
     <footer>
         <form> 
-            <label for="Name"> Name:</label><br>
-            <input type="text" id="name" name="name" required pattern="[A-Za-z]+" minlength="2"> <br>
+            <label for="Name"> Name:</label>
+            <br>
+            <input type="text" id="Name" name="Name" required pattern="[A-Za-z]+" minlength="2"> <br>
             
-            <label for="pass">Password:</label><br>
-            <input type="Password" id="pass" name="pass" required minlength="8">
+            <label for="Password">Password:</label><br>
+            <input type="Password" id="Password" name="Password" required minlength="8">
 <br>
-            <label for="Gender">Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
+            <label for="gender">Gender:</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
             <label for="Male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
+            <input type="radio" id="Female" name="Gender" value="Female">
             <label for="Female">Female</label>
             <br>
             <label for="term">Accept term and condition</label><br>
@@ -52,9 +58,7 @@
         </form>
     </footer>
     <section>
-    <style>
-        table, th, td { border:1px solid black;}
-    </style>
+
     <table style="width:70%">
         <tr>
             <th>Name</th>
