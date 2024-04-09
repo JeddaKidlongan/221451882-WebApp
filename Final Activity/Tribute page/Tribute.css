@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
     background: burlywood;
@@ -15,7 +15,7 @@ main{
 }
 #title {
     text-align: center;
-    color: black;
+    color: rgb(33, 31, 31);
 }
 #img-div {
     margin: 30px 1;
@@ -60,6 +60,6 @@ blockquote {
 }
 cite {
     display: block;
-    text-align: right;
+    text-align: center;
     color: black;
 }
