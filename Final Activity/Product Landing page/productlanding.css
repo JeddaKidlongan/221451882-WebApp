@@ -15,14 +15,14 @@ body {
     padding: 0 20px;
 }
 #header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #ea6060;
+    color: #f6e8e8;
+    padding: 10px;
     text-align: center;
 }
 .logo img {
-    width: 200px;
-    height: 90px;
+    width: 300px;
+    height: 100px;
     max-width: 300px;
     display: flex;
     justify-content: center;
@@ -39,8 +39,8 @@ body {
 
 }
 #nav-bar ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #0a0a0a;
+    text-decoration: lowerline;
 }
 .main-section {
     background-color:#fff;
@@ -81,7 +81,7 @@ body {
 }
 .product span {
     margin-left: 30px;
-    background-color: #ef3434;
+    background-color: #fa4545;
 }
 .bi {
     margin-right: 5px;
@@ -102,7 +102,7 @@ body {
     cursor: pointer;
 }
 #submit:hover {
-    background-color: #2340ea;
+    background-color: #ef666f;
 }
 #video {
     text-align: center;
